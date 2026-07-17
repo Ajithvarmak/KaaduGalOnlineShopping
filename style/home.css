@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  "Montserrat", sans-serif;;
+}
+
+h1,h2,h3,h4{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navigation1{
+    background-color: white;
+    height: 100px;
+    border-bottom: 1.5px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.navigation1 li{
+    text-align: center;
+}
+
+.headimg1 img{
+    height: 100px;
+    padding-left: 10px;
+}
+
+.navigation1 li input{
+    margin: 0 20px;
+    padding: 15px;
+    padding-right: 200px;
+    background-image: url("/image/magnifying-glass-solid-full.svg");
+    background-position: 340px 5px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    border: 1.5px solid gray;
+}
+
+.navigation1 li input:focus{
+    border: 2px solid orange;
+    outline: none;
+}
+
+.loc-head{
+    margin: 0 20px;
+}
+
+.loc-head a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.flag{
+    padding-left: 10px;
+}
+
+.flag a{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+.login{
+    padding-left: 10px;
+}
+
+.login a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    border: 1.5px solid transparent;
+}
+
+.login a:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+
+.cart{
+    padding-left: 5px;
+}
+
+.cart a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    border: 1.5px solid transparent;
+}
+
+.cart a:hover{
+    border-color: rgb(245,157,33);
+}
+
+#cart{
+    margin-right: 8px;
+}
+
+
+.order{
+    padding-left: 10px;
+}
+
+.order a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    border: 1.5px solid transparent;
+}
+
+.order a:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+@media screen and (max-width:1098px){
+
+    .navigation1{
+        flex-direction: column;
+        height: auto;
+    }
+    .navigation1 li{
+        margin: 10px 0;
+    }
+    .navigation1 li input{
+        width: 230px;
+        padding-right: 80px;
+        background-position: 180px center;
+    }
+.headimg1 img{
+        padding-left: 0;
+    } 
+    
+}
