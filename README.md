@@ -8,4 +8,6 @@ Frontend website for KaaduGal Online Shopping.
 
 3. FirstAd Div is Completed Successfully also Resposive Design Too (but some Error also there) 
 
+4. Downad for ( Cash on Delivery like it ) also Resposive design is completed Successfully
+
 
