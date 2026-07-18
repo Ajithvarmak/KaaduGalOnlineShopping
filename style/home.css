@@ -206,30 +206,66 @@ ul{
 
 }
 
-    .downad{
-        background-color: rgba(252, 168, 11, 0.211);
-        height: 80px;
-        width: auto;
-        padding-top: 15px;
-        display: flex;
-        justify-content: space-evenly;
+.downad{
+    background-color: rgba(252, 168, 11, 0.211);
+    height: 80px;
+    width: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.downad span{
+    border: 1px solid orange;
+    height: fit-content;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.downad span:hover{
+    background-color: orange;
+    color: white;
     }
 
-    .downad span{
-        border: 1px solid orange;
-        height: fit-content;
-        text-align: center;
-        width: 200px;
-        padding: 15px;
-        background-color: white;
-        border-radius: 3px;
-        cursor: pointer;
-    }
+.Category{
+    background-color: white;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
 
-    .downad span:hover{
-        background-color: orange;
-        color: white;
-    }
+.Category h1{
+    text-transform: uppercase;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.collection1{
+display: flex;
+padding: 15px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.collection1 img{
+    height: 160px;
+    max-width: 100%;
+    border: 5px solid orange;
+    border-bottom: 20px solid orange;
+    margin: 5px;
+    
+}
+
+.collection1 h2{
+    text-align: center;
+    font-size: 18px;
+    
+}
 
 @media screen and (max-width:900px){
 
@@ -261,6 +297,10 @@ ul{
     top:82%;
     left:65px;
     }
+
+    .collection1 img{
+        height: 130px;
+    }
  
 }
 
@@ -280,7 +320,7 @@ ul{
     left:35px;
     }
 
-        .downad{
+    .downad{
         flex-direction: column;
         height: auto;
 
@@ -290,6 +330,22 @@ ul{
         text-align: center;
         margin-left:auto ;
         margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .collection1{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .collection1 img{
+        height: 350px;
+        justify-content: center;
+        margin-left: 13%;
+    }
+
+    .collection1 h2{
+        font-size: 17px;
         margin-bottom: 10px;
     }
 

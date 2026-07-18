@@ -10,4 +10,6 @@ Frontend website for KaaduGal Online Shopping.
 
 4. Downad for ( Cash on Delivery like it ) also Resposive design is completed Successfully
 
+5. Categorey Div is Completed Now Next Partner for Our Shopping 
+
 
