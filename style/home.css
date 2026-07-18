@@ -346,14 +346,15 @@ justify-content: space-evenly;
     display: block;
     height: 230px;
     max-width: 100%;
-    background-image: url(/image/ad01.png);      
+    background-image: url(/image/ad01.png);    
+    background-position-x: -15px;  
     }
 
     .button-firstad{
     padding: 5px;
     font-size: 10px;
     top:82%;
-    left:35px;
+    left:20px;
     }
 
     .downad{
@@ -386,7 +387,7 @@ justify-content: space-evenly;
     }
 
     .ad2-ul li a img{
-        width: 100px;
+        width: 105px;
     } 
 
 }
