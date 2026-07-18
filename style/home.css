@@ -267,6 +267,42 @@ justify-content: space-evenly;
     
 }
 
+.ad2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ad2-ul{
+        background-color: rgba(128,128,128,0.282);
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 40px 10px;
+        gap: 15px;
+}
+
+
+.ad2-ul li{
+    flex-shrink: 0;
+}
+
+.ad2-ul li a{
+    display: block;
+}
+
+.ad2-ul li a img{
+    width: 177px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+
+.ad2-ul::-webkit-scrollbar{
+    display: none;
+}
+
 @media screen and (max-width:900px){
 
     .navigation1{
@@ -348,6 +384,10 @@ justify-content: space-evenly;
         font-size: 17px;
         margin-bottom: 10px;
     }
+
+    .ad2-ul li a img{
+        width: 100px;
+    } 
 
 }
 
