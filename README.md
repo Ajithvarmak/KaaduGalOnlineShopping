@@ -12,4 +12,6 @@ Frontend website for KaaduGal Online Shopping.
 
 5. Categorey Div is Completed Now Next Partner for Our Shopping 
 
+6. Partners Ad Displaying Div is Completed. Let Go for Next Design 
+
 
