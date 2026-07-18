@@ -6,4 +6,6 @@ Frontend website for KaaduGal Online Shopping.
 
 2. Now Navigation1 Bar is Completed Same Resposive Design, And Implement Bootstrap 5 for Future Adding Prepose To  Avoid Error Alignment 
 
+3. FirstAd Div is Completed Successfully also Resposive Design Too (but some Error also there) 
+
 
