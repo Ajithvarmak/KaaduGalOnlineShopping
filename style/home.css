@@ -43,7 +43,7 @@ ul{
     padding: 15px;
     padding-right: 200px;
     background-image: url("/image/magnifying-glass-solid-full.svg");
-    background-position: 340px 5px;
+    background-position: 370px 10px;
     background-repeat: no-repeat;
     background-size: 35px;
     border: 1.5px solid gray;
@@ -182,8 +182,8 @@ ul{
 
 
 .firstad{
+    display: block;
     width: auto;
-    display: -webkit-box;
     height: 380px;             
     background-image: url(/image/ad1.png); 
     background-repeat: no-repeat;
@@ -200,13 +200,14 @@ ul{
     color: black;
     border-radius: 5px;
     position: relative;
-    top:85%;
-    left:120px;
+    display: inline-flex;
+    top:80%;
+    left:120px;  
 
 }
 
 
-@media screen and (max-width:1098px){
+@media screen and (max-width:900px){
 
     .navigation1{
         flex-direction: column;
@@ -224,8 +225,9 @@ ul{
         padding-left: 0;
     } 
     .firstad{
+    display: block;
     width: auto;
-    height: 180px; 
+    height: 260px; 
     background-size: 120% 100%;            
     }
 
@@ -233,40 +235,26 @@ ul{
     padding: 5px;
     font-size: 10px;
     top:82%;
-    left:100px;
+    left:65px;
     }
     
 }
 
-@media screen and (max-width:600px){
-    .downad{
-        flex-direction: column;
-        height: auto;
+@media screen and (max-width:599px){
 
-    }
-    .downad span{
-        width: 200px;
-        text-align: center;
-        margin-left:auto ;
-        margin-right: auto;
-        margin-bottom: 10px;
-    }
     .firstad{
-    width: auto;
-    height: 180px; 
-    background-size: 120% 100%;            
+    display: block;
+    height: 230px;
+    max-width: 100%;
+    background-image: url(/image/ad01.png);      
     }
 
     .button-firstad{
     padding: 5px;
     font-size: 10px;
     top:82%;
-    left:45px;
+    left:35px;
     }
 
-    .navigation1 li input{
-        width: 180px;
-        padding-right: 50px;
-        background-position: 130px center;
-    }
 }
+
