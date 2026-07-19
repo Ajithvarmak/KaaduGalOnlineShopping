@@ -323,7 +323,7 @@ justify-content: space-evenly;
     width: 23%;
     border: 1px solid #d9d9d9;
     background: #fff;
-    height: 600px;
+    height: 1000px;
     overflow-y: auto;
     flex-shrink: 0;
 }
