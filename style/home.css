@@ -298,9 +298,161 @@ justify-content: space-evenly;
     max-width: 100%;
 }
 
-
 .ad2-ul::-webkit-scrollbar{
     display: none;
+}
+.main {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main h1 {
+    padding: 30px 0 30px 50px;
+    font-size: 38px;
+}
+
+.maincontent {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 50px 30px;
+}
+
+.sidefilers {
+    width: 23%;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    height: 600px;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.filter-header {
+    padding: 0;
+    margin: 0;
+}
+
+.filter-header h2 {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+}
+
+.filter-header p {
+    margin: 0 20px;
+    padding: 0 0 15px;
+    color: green;
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.filter-section {
+    margin: 0 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.filter-section:last-child {
+    border-bottom: none;
+}
+
+.filter-section summary {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkbox-item {
+    list-style: none;
+    padding: 12px 0 0;
+    margin: 0;
+}
+
+.checkbox-item li {
+    margin-bottom: 10px;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox-item label {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.Product{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    align-content: flex-start;
+}
+
+.frontproducts{
+    width: 220px;
+    height: 430px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 10px;
+}
+
+.frontproducts a{
+    display: block;
+    text-align: center;
+}
+
+.frontproducts a img{
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: contain;
+    margin-bottom: 0;
+}
+
+.frontproducts strong{
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222;
+}
+
+.frontproducts span{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.frontproducts p{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000;
+}
+
+.frontproducts button{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: #f1ba03;
+    color: black;
+    font-size: 15px;
+}
+
+.frontproducts button:hover{
+    background: #fda605;
+    color: white;
+}
+
+
+.laptop{
+    height: 50px;
+
 }
 
 @media screen and (max-width:900px){
@@ -337,7 +489,7 @@ justify-content: space-evenly;
     .collection1 img{
         height: 130px;
     }
- 
+
 }
 
 @media screen and (max-width:599px){
@@ -389,6 +541,57 @@ justify-content: space-evenly;
     .ad2-ul li a img{
         width: 105px;
     } 
+
+    .main h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    }
+
+    .maincontent{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .sidefilers{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .Product{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .frontproducts{
+        height: auto;
+        padding: 10px;
+    }
+
+    .frontproducts img{
+        width: 100%;
+        height: 160px;
+    }
+
+    .frontproducts strong{
+        font-size: 13px;
+    }
+
+    .frontproducts p{
+        font-size: 16px;
+    }
+
+    .frontproducts button{
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+
 
 }
 
