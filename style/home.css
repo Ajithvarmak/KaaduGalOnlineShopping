@@ -273,13 +273,13 @@ justify-content: space-evenly;
 }
 
 .ad2-ul{
-        background-color: rgba(128,128,128,0.282);
-        display: flex;
-        align-items: center;
-        overflow-x: auto;
-        white-space: nowrap;
-        padding: 40px 10px;
-        gap: 15px;
+    background-color: rgba(128,128,128,0.282);
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 40px 10px;
+    gap: 15px;
 }
 
 
@@ -449,11 +449,63 @@ justify-content: space-evenly;
     color: white;
 }
 
-
 .laptop{
     height: 50px;
-
 }
+
+footer{
+    background-color: #edf3fa;
+    height: auto;
+}
+
+footer h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+footer p{
+    line-height: 0.5;
+    cursor: pointer;
+    
+}
+
+footer a{
+    color: rgb(107, 107, 107);
+}
+
+.footerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+
+.onlineshopping,.services,.contactas,.ad3{
+    border: none;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+.onlineshopping,.services,.ad3{
+    width: 250px;
+}
+
+.ad3 img{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footerdiv a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
 
 @media screen and (max-width:900px){
 
@@ -590,8 +642,12 @@ justify-content: space-evenly;
         height: 35px;
         font-size: 14px;
     }
+    .onlineshopping,.services{
+    width: 200px;}
 
-
-
+    .ad3{
+        width: 350px;
+    }
 }
+
 

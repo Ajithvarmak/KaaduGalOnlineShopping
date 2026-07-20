@@ -14,4 +14,10 @@ Frontend website for KaaduGal Online Shopping.
 
 6. Partners Ad Displaying Div is Completed. Let Go for Next Design 
 
+7. Main Product Display Section was Completed on 19/07/2026 also resposive debug is fixed 
+
+8. Footer and Copyright is completed now 20/07/2026 so the Kaadugal Website is Finish by Using Html and Css 
+
+Currently i am Studying js After I will implement that also frame work too
+
 
